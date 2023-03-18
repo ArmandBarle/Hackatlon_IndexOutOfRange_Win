@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sList</string>
+    <string-array name="items">
+        <item>paine</item>
+        <item>bere</item>
+        <item>fructe</item>
+        <item>ciocolata</item>
+        <item>unt</item>
+    </string-array>
+</resources>
