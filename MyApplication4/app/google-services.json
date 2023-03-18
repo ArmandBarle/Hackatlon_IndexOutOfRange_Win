@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "937234048270",
+    "firebase_url": "https://shopsmart-e3179-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "shopsmart-e3179",
+    "storage_bucket": "shopsmart-e3179.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937234048270:android:d751d6947f4d758468e35f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937234048270-rr8harive8j0g1d8isg1jp1uu3r69c99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAQfnXTqJ57TrUk6m9XcZ4fmkWstGUPfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937234048270-rr8harive8j0g1d8isg1jp1uu3r69c99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937234048270:android:b3ca6514ecbac2c768e35f",
+        "android_client_info": {
+          "package_name": "com.heckatlon.shopsmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937234048270-rr8harive8j0g1d8isg1jp1uu3r69c99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAQfnXTqJ57TrUk6m9XcZ4fmkWstGUPfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937234048270-rr8harive8j0g1d8isg1jp1uu3r69c99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
