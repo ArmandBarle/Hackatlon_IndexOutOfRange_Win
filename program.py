@@ -300,19 +300,53 @@ def main():
         'databaseURL': "https://shopsmart-e3179-default-rtdb.europe-west1.firebasedatabase.app"
     })
 
-    # kaufland_discounts = kaufland_discount()
-    # kaufland_discounts_fill(kaufland_discounts)
+    kaufland_discounts = kaufland_discount()
+    kaufland_discounts_fill(kaufland_discounts)
 
-    # carrefour_discounts = carrefour_discount()
-    # carrefour_discounts_fill(carrefour_discounts)
+    carrefour_discounts = carrefour_discount()
+    carrefour_discounts_fill(carrefour_discounts)
 
-    # penny_cheap_ = bringo_cheap(
-    #     "https://www.bringo.ro/ro/store/penny-penny-targu-mures-portico/unt-si-margarina?sorting%5Bprice%5D=asc")
-    # penny_items_fill_one(penny_cheap_, "unt")
 
-    # carrefour_cheap_ = bringo_cheap(
-    #     "")
-    # carrefour_items_fill_one(carrefour_cheap_, "bere")
+    carrefour_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/carrefour_hipermarket-carrefour-targu-mures/235?sorting%5Bprice%5D=asc")
+    carrefour_items_fill_one(carrefour_cheap, "unt")
+
+    carrefour_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/carrefour_hipermarket-carrefour-targu-mures/fructe-si-legume-9?sorting%5Bprice%5D=asc&criteria%5Bsearch%5D%5Bvalue%5D=banane")
+    carrefour_items_fill_one(carrefour_cheap, "fructe")
+
+    carrefour_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/carrefour_hipermarket-carrefour-targu-mures/247?sorting%5Bprice%5D=asc")
+    carrefour_items_fill_one(carrefour_cheap, "bere")
+
+    carrefour_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/carrefour_hipermarket-carrefour-targu-mures/dulciuri-31?sorting%5Bprice%5D=asc&criteria%5Bsearch%5D%5Bvalue%5D=ciocolata")
+    carrefour_items_fill_one(carrefour_cheap, "ciocolata")
+
+    carrefour_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/carrefour_hipermarket-carrefour-targu-mures/paine-ambalata-13?sorting%5Bprice%5D=asc&criteria%5Bsearch%5D%5Bvalue%5D=paine")
+    carrefour_items_fill_one(carrefour_cheap, "paine")
+
+
+    penny_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/penny-penny-targu-mures-portico/unt-si-margarina?sorting%5Bprice%5D=asc")
+    penny_items_fill_one(penny_cheap, "unt")
+
+    penny_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/penny-penny-targu-mures-portico/bauturi-7?sorting%5Bprice%5D=asc&criteria%5Bsearch%5D%5Bvalue%5D=bere")
+    penny_items_fill_one(penny_cheap, "bere")
+
+    penny_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/penny-penny-targu-mures-portico/fructe-proaspete?sorting%5Bprice%5D=asc&criteria%5Bsearch%5D%5Bvalue%5D=bana")
+    penny_items_fill_one(penny_cheap, "fructe")
+
+    penny_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/penny-penny-targu-mures-portico/paine-si-patiserie?criteria%5Bsearch%5D%5Bvalue%5D=paine")
+    penny_items_fill_one(penny_cheap, "paine")
+
+    penny_cheap = bringo_cheap(
+        "https://www.bringo.ro/ro/store/penny-penny-targu-mures-portico/dulciuri-si-snacks?sorting%5Bprice%5D=asc&criteria%5Bsearch%5D%5Bvalue%5D=ciocolata")
+    penny_items_fill_one(penny_cheap, "ciocolata")
 
 
 if __name__ == '__main__':
