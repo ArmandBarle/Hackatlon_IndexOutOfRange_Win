@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -46,6 +48,9 @@ public class ShoppingList extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dialog.show();
+                dialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(Color.parseColor("#006B41"));
+                dialog.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(Color.parseColor("#006B41"));
+
             }
         });
 
@@ -85,7 +90,14 @@ public class ShoppingList extends AppCompatActivity {
                     }
                 });
         name.setText("");
+        TextView textView = new TextView(this);
+        textView.setText("Enter Item");
+        textView.setPadding(50, 50, 20, 30);
+        textView.setTextSize(20F);
+        textView.setTextColor(Color.parseColor("#006B41"));
+        textView.setPaintFlags(textView.getPaintFlags() | Paint.FAKE_BOLD_TEXT_FLAG);
         dialog = builder.create();
+        dialog.setCustomTitle(textView);
     }
 
     private void addCard(String name, ArrayList<String> pItems){

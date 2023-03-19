@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -18,21 +19,28 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp">
 
-                <TextView
-                    android:id="@+id/name"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Item"
-                    android:textColor="@android:color/holo_purple"
-                    android:textSize="30dp" />
-
                 <Button
                     android:id="@+id/delete"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="2dp"
-                    android:text="Delete" />
+                    android:layout_marginEnd="0dp"
+                    android:background="#006B41"
+                    android:backgroundTint="#31D594"
+                    android:text="Delete"
+                    android:textColor="#FFFFFF"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="238dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="39dp"
+                    android:layout_toStartOf="@+id/delete"
+                    android:text="Item"
+                    android:textColor="#006B41"
+                    android:textSize="30dp" />
+
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </RelativeLayout>

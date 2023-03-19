@@ -9,10 +9,11 @@
         android:padding="10dp">
 
         <AutoCompleteTextView
-            android:hint="Add item"
             android:id="@+id/nameEdit"
             android:layout_width="fill_parent"
-            android:layout_height="50dp" />
+            android:layout_height="50dp"
+            android:hint="Add item"
+            android:textColor="#006B41" />
     </RelativeLayout>
 
 </RelativeLayout>
