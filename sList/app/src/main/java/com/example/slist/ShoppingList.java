@@ -1,4 +1,5 @@
 package com.example.slist;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AlertDialog;
 import android.content.DialogInterface;
@@ -17,12 +18,21 @@ public class ShoppingList extends AppCompatActivity {
     Button add,calc;
     AlertDialog dialog;
     LinearLayout layout;
-    ArrayList<String> items;
+    public static ArrayList<String> items;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.shoppinglist);
+
+        View decorView = getWindow().getDecorView();
+        // Hide the status bar.
+        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decorView.setSystemUiVisibility(uiOptions);
+
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         items=new ArrayList<>();
         add=(Button) findViewById(R.id.add);
