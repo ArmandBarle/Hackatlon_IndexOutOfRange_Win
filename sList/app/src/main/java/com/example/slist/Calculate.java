@@ -1,10 +1,12 @@
 package com.example.slist;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,6 +29,8 @@ import java.util.Map;
 public class Calculate extends AppCompatActivity {
 
     HashMap<String,Object> data;
+
+    public static String shopToShow;
 
     private void getFirebaseData(String shop,TextView price){
         DatabaseReference dataRef = FirebaseDatabase.getInstance().getReference().child(shop+"/items");
@@ -74,13 +78,31 @@ public class Calculate extends AppCompatActivity {
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
 
-
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
+
+        Button viewCarrefour = (Button)findViewById(R.id.showCarrefour);
+        Button viewPenny = (Button)findViewById(R.id.showPenny);
+
 
         TextView price1 = (TextView)findViewById(R.id.price1);
         getFirebaseData("carrefour",price1);
         TextView price2 = (TextView)findViewById(R.id.price2);
         getFirebaseData("penny",price2);
+
+        viewCarrefour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                shopToShow = "Carrefour";
+                startActivity(new Intent(Calculate.this, ShowList.class));
+            }
+        });
+        viewPenny.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                shopToShow = "Penny";
+                startActivity(new Intent(Calculate.this, ShowList.class));
+            }
+        });
     }
 }
