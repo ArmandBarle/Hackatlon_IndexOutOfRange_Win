@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shopsmart-e3179",
+  "private_key_id": "09f74bd5b0332f6e6602b7795b5f86ef3bea07df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiMUZnoYX9ySMR\nBEITnd1sULY0QmAv+c47HFIm9gzHTDW10yw42x/C8VPNzCDUhgzKABNSd40cWpgZ\nMLn/35fJhz3tGK7GoUlNfYXFTwxAHw1iDNMiKVHbXfiH6k9ukK59uKSDKBkErD28\ngfIqUiAqSnLg1lsSjAwb8yz/k4Sujj14RmOCflk9vihKTcCm++9wENn5cp1K8dVw\nLhomQLmBdre2JUeT0xF7QeP67wKlQMD/JvAkASuyxlP7LR8/DOBWWIYCyZU8xBWc\n7F1dFFF4ZqNLPLM1LX2jOQnybAGE1n8V+zufnjLqCNhN94db7STp+a/Nq134BNJr\n2wgqInWDAgMBAAECggEATX4ujdgCTZHa48f9jCLahuR/UbO/Al0f+GUdKUlZLKXQ\nabnmQJoNcFZefI8Bxpjvplnn4XiGXtw4HJ0H2WWqv5qS72PiKbwo6lHFZtLQXxiX\nC9hlzkYguqeI1eORJRoSjLX6QEIZxf5HlvgdTLQlcx9UCPHR3Kg2JuqGfuwsMju2\n/CtcSPtW8FbsoMZm2kL6Ku474FAEz5sjIpugfJlhHEwsUW7bFt0D9LVTA/k930Ub\nujbZaezDBgNjR2TIMSPBNSRvusiKZxDDM1qNxj5WEJITy9xvtr7mmSCwnFhujZRo\nAuOMvpw9u6PKVCpgNgOLg4yOAnExzb+87bNWurHCmQKBgQDid5mMdNS4im5tv7rl\n1jUgfn94EQ/HItSwkyp6sjvhx11w12Dlqwet33Yn2yOUOOrQYtYBnSmX8NYasaIm\nDDHslUnN53/Tye8NDzHgVsY08V0zMR5KxrYcjLAV7nTpkKvlBVXsb3TpIf4JmCvo\n09gS0DMh6VEPxBP9hWaK9GnBWwKBgQC3V+xAMYlNR1tx1FzbjdkZDn+MgbBDVVJO\n6rfuk0V8Xuz42FLC3d3rsctR9gG+UdJ96F+idU/j9FA4SJC8j31qcvRQGB0egtfD\nDCJZzCN5EHfmce54Kwt+onRrCD6sFYxEcnzAwCvecLGCWqGSql97LGD0euXBaRcd\n44nJiIls+QKBgAXlKyAW4nqzT9CXjxvwiY2A/Xx4pTp/052NFyv+e8SS1gHb+W/B\nFgAWsxKyh6iSGrq19/Au0ShdYpVrTldDNgF8mWE8x30R4qEqZhf66knyhoSQoMM9\njPwNRYAspup1k6PwkZ4IALkY424Iggwbh6JlvQ8C7dNFPWf6EwNG/YHFAoGANASM\nEQJ89CIEvd0Eo34xVDyaz6CUA+aXPbC2ksfR9SFxloC5qnQMXKzLBOwJPpg0Ymil\niZBDJGfSwsVD21vSt3r5+id9S4TP9pTgwh17CwQzIHy+rfV4g2tQIHXsYiKS83CQ\nGJftWmUa1+Mi6FvSTz4eG/8qZJ+OYXqHQ1irtPECgYEAuDeHWvBwHtLB8fh4z219\nIQDRjRMy+ULALHTRrZzN8g6WK20ROnq486l83APYwfOaLGXcuLlxBfEXv0UFyCjF\n5gKDh1K52Z8gH6Hr29gPN4K4zdhhGFDwkOg1lWciGnEMd7YfR/7+T1WKm+oi6FS/\nHdlCrwCcNGC854THSYoHR5E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ku8ye@shopsmart-e3179.iam.gserviceaccount.com",
+  "client_id": "100154358657552977995",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ku8ye%40shopsmart-e3179.iam.gserviceaccount.com"
+}
